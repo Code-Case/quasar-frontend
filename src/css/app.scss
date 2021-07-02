@@ -1,0 +1,80 @@
+// app global css in SCSS form
+@font-face {
+  font-family: 'OpenSans';
+  src: url('../fonts/OpenSans-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'OpenSans';
+  src: url('../fonts/OpenSans-Bold.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'OpenSans';
+  src: url('../fonts/OpenSans-BoldItalic.ttf') format('truetype');
+  font-weight: bold;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'OpenSans';
+  src: url('../fonts/OpenSans-Italic.ttf') format('truetype');
+  font-weight: normal;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'OpenSans';
+  src: url('../fonts/OpenSans-Light.ttf') format('truetype');
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'OpenSans';
+  src: url('../fonts/OpenSans-LightItalic.ttf') format('truetype');
+  font-weight: 300;
+  font-style: italic;
+}
+
+html, body {
+  font-family: 'OpenSans';
+  font-size: 18px;
+  line-height: 24px;
+  font-weight: 400;
+}
+
+.q-tab__label {
+  font-size: 18px;
+  font-weight: 400;
+  color: #353535;
+}
+
+.q-expansion-item {
+  .q-item {
+    color: $primary;
+    background-color: $lightgrey;
+  }
+}
+
+.footer-meta--links {
+    position: absolute;
+    bottom: 6em;
+    right: 5em;
+    font-size: 14px;
+
+    .q-item {
+      float: left;
+      height: 56px;
+
+      &.q-hoverable:hover .q-focus-helper {
+        background: inherit;
+        opacity: 0;
+      }
+    }
+
+}
