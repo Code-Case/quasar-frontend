@@ -1,4 +1,4 @@
-# Quasar App 
+# Quasar App with Vue 
 
 A Quasar Framework app
 
